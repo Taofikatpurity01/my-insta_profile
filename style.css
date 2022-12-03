@@ -10,25 +10,26 @@ nav{
     border-bottom: 1px solid gray;
 }
 .insta-logo img{
-    width: 100px;
+    width: 150px;
     color: black;
 
 }
 input{
-    background-color: rgb(189, 180, 180);
+    background-color: rgb(214, 211, 211);
     border-radius: 8px;
     font-size: 12;
     padding: 10px;
 }
 .icons{
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
     padding: 10px;
 }
 .icons i{
-    font-size: 30px;
+    font-size: 25px;
 }
 .icons img{
     width: 30px;
+    height: 30px;
     border-radius: 50%;
 }
