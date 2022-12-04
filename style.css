@@ -33,3 +33,78 @@ input{
     height: 30px;
     border-radius: 50%;
 }
+.container{
+    display: flex;
+    padding: 30px 30px 30px 240px;
+    gap: 2rem;
+
+}
+.stories{
+    display: flex;
+    gap: 8px;
+    padding: 20px 0 20px 20px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    text-align: center;
+}
+.pple{
+    display: flex;
+    flex-direction: column;
+}
+.pple img{
+    width: 70px;
+    height: 70px;
+    border: 3px solid rgb(255, 115, 139);
+    border-radius: 50px;
+    
+}
+.mee{
+    display: flex;
+    gap:2rem; 
+}
+.mee img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+.mee .name{
+    line-height: 4px;
+    padding-top: 5px;
+}
+.mee .fade{
+    color: rgb(177, 165, 165);
+}
+.mee .blue{
+    color: blue;
+}
+.suggestions{
+    display: flex;
+    justify-content: space-between;
+}
+.suggestions .for-you{
+    color: rgb(177, 165, 165);
+}
+.follow{
+    display: flex;
+    justify-content: space-between;
+}
+.followers img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.followers  .fade{
+    color: rgb(177, 165, 165);
+}
+.followers  .blue{
+    color: blue;
+}
+.followers  .name{
+    line-height: 4px;
+    padding-top: 5px;
+}
+.fadee{display: inline-block;}
+.fadee a{
+    text-decoration: none;
+    color: rgb(177, 165, 165);
+}
