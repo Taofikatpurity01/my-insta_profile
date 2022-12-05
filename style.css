@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: p;
+    font-family: 'Poppins', sans-serif;
 }
 nav{
     display: flex;
@@ -38,13 +38,15 @@ input{
 }
 .container{
     display: flex;
-    padding: 30px 30px 30px 240px;
-    gap: 2rem;
+    padding: 30px 30px 30px 140px;
+    gap: 0.3rem;
+    width: 90.5%;
 
 }
 .stories{
     display: flex;
     gap: 8px;
+    width: 88%;
     padding: 20px 0 20px 20px;
     border: 1px solid gray;
     border-radius: 12px;
@@ -53,6 +55,7 @@ input{
 .pple{
     display: flex;
     flex-direction: column;
+    font-size: 10px;
 }
 .pple img{
     width: 70px;
@@ -63,7 +66,7 @@ input{
 }
 .mee{
     display: flex;
-    gap:2rem; 
+   justify-content: space-between;
 }
 .mee img{
     width: 70px;
@@ -90,6 +93,10 @@ input{
 .follow{
     display: flex;
     justify-content: space-between;
+}
+.space{
+    display: flex;
+    gap: 1rem;
 }
 .followers img{
     width: 50px;
@@ -125,4 +132,58 @@ ul li a{
 }
 .fadee p{
     color: rgb(177, 165, 165);
+}
+.post{
+    display: flex;
+    width: 88%;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+}
+.insta{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.insta div{
+    display: flex;
+}
+.insta img{
+    width: 45px;
+    border-radius: 50px;
+}
+.comments{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
+.comments .heart{
+    display: flex;
+    gap: 1rem;
+}
+.comments i{
+    font-size: 25px
+}
+.comment{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+.comment .emoji{
+    display: flex;
+    gap: 1rem;
+}
+.comment i{
+    padding-top: 15px;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.comment .blue{
+    color: rgba(0, 0, 255, 0.5);
 }
