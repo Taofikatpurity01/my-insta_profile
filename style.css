@@ -9,8 +9,12 @@ body{
 nav{
     display: flex;
     gap: 4rem;
-    padding: 10px 0 10px 270px;
+    padding: 10px 0 8px 270px;
     border-bottom: 1px solid gray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
 }
 .insta-logo img{
     width: 150px;
@@ -41,6 +45,7 @@ input{
     padding: 30px 30px 30px 140px;
     gap: 0.3rem;
     width: 90.5%;
+    margin-top: 80px ;
 
 }
 .stories{
