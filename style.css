@@ -3,6 +3,9 @@
     border: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: p;
+}
 nav{
     display: flex;
     gap: 4rem;
@@ -103,8 +106,23 @@ input{
     line-height: 4px;
     padding-top: 5px;
 }
-.fadee{display: inline-block;}
+/* .fadee{display: inline-block;} */
 .fadee a{
     text-decoration: none;
+    color: rgb(177, 165, 165);
+}
+.fadee ul{
+    display: flex;
+    gap: 2px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.fadee p{
     color: rgb(177, 165, 165);
 }
