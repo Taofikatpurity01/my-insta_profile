@@ -80,6 +80,7 @@ input{
     width: 60%;
     padding:0 90px 0 20px;
     font-size: 12px;
+    align-items: center;
 }
 .mee{
     display: flex;
@@ -115,6 +116,7 @@ input{
 .space{
     display: flex;
     gap: 1rem;
+    align-items: center;
 }
 .followers img{
     width: 40px;
@@ -129,7 +131,7 @@ input{
 }
 .followers  .name{
     line-height: 4px;
-    padding-top: 5px;
+    /* padding-top: 5px; */
 }
 /* .fadee{display: inline-block;} */
 .fadee a{
