@@ -9,51 +9,58 @@ body{
 nav{
     display: flex;
     gap: 4rem;
-    padding: 10px 0 8px 270px;
-    border-bottom: 1px solid gray;
+    padding: 10px 0 2px 185px;
+    border: 1px solid rgb(228, 226, 226);
     position: fixed;
     top: 0;
     width: 100%;
     background-color: white;
 }
 .insta-logo img{
-    width: 150px;
+    width: 140px;
     color: black;
-
 }
 input{
-    background-color: rgb(214, 211, 211);
+    background-color: rgb(233, 231, 231);
     border-radius: 8px;
     font-size: 12;
     padding: 10px;
+    margin-top: 8px;
+    width: 100%;
 }
 .icons{
     display: flex;
-    gap: 1.5rem;
+    gap: 2rem;
     padding: 10px;
 }
 .icons i{
-    font-size: 25px;
+    font-size: 24px;
 }
 .icons img{
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
 }
+/* nav-styling ends */
 .container{
     display: flex;
-    padding: 30px 30px 30px 140px;
-    gap: 0.3rem;
-    width: 90.5%;
+    padding: 30px 30px 30px 175px;
+    gap: 0.5rem;
+    width: 80%;
     margin-top: 80px ;
+    
 
+}
+.left-side{
+    width: 80%;
+    margin-left: 30px;
 }
 .stories{
     display: flex;
     gap: 8px;
-    width: 88%;
+    width: 100%;
     padding: 20px 0 20px 20px;
-    border: 1px solid gray;
+    border: 1px solid rgb(228, 226, 226);
     border-radius: 12px;
     text-align: center;
 }
@@ -69,13 +76,19 @@ input{
     border-radius: 50px;
     
 }
+.me{
+    width: 60%;
+    padding:0 90px 0 20px;
+    font-size: 12px;
+}
 .mee{
     display: flex;
    justify-content: space-between;
+   margin-top: 20px;
 }
 .mee img{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 50px;
 }
 .mee .name{
@@ -104,8 +117,8 @@ input{
     gap: 1rem;
 }
 .followers img{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50px;
 }
 .followers  .fade{
@@ -138,11 +151,12 @@ ul li a{
 .fadee p{
     color: rgb(177, 165, 165);
 }
+/* uploads */
 .post{
     display: flex;
-    width: 88%;
+    width: 100%;
     flex-direction: column;
-    border: 1px solid gray;
+    border: 1px solid rgb(228, 226, 226);
     border-radius: 12px;
     padding: 20px;
     margin: 20px 0;
@@ -150,19 +164,24 @@ ul li a{
 .insta{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(228, 226, 226);
 }
 .insta div{
     display: flex;
+    font-size: 12px;
+    gap:4px; 
 }
 .insta img{
     width: 45px;
     border-radius: 50px;
 }
+.post-img img{
+    width: 450px;
+}
 .comments{
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid gray;
+    border-top: 1px solid rgb(228, 226, 226);
     padding-top: 10px;
 }
 .comments .heart{
@@ -172,23 +191,32 @@ ul li a{
 .comments i{
     font-size: 25px
 }
+.text{
+    font-size: 12px;
+}
 .comment{
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid gray;
+    border-top: 1px solid rgb(228, 226, 226);
 }
 .comment .emoji{
     display: flex;
     gap: 1rem;
 }
 .comment i{
-    padding-top: 15px;
+    padding-top: 10px;
     font-size: 25px;
 }
 a{
     text-decoration: none;
     color: black;
+    font-weight: 600;
 }
 .comment .blue{
     color: rgba(0, 0, 255, 0.5);
+    font-size: 14px;
+}
+span, .texts{
+    color: rgb(165, 163, 163);
+    font-size: 12px;
 }
